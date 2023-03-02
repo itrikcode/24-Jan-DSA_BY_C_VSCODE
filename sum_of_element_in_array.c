@@ -17,7 +17,11 @@ int main() {
         printf("Add tow Number ");
         scanf("%d,%d ",&b,&c);
         break;
-      break;
+         case 2:
+        printf("Add tow Number ");
+        scanf("%d,%d ",&b,&c);
+        break;
+      
      
      default:
       break;
