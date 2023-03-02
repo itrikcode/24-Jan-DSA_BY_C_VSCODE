@@ -1,30 +1,26 @@
 #include <stdio.h>
-
-
-
-int main() {
-   
-   int a,b,c;
-  printf("1. Add ");
+int main()
+{
+   int a, b, c;
+   printf("1. Add ");
    printf("2. sub ");
-    printf("3. mul ");
-     printf("chooce option ");
-     scanf("%d",&a);
+   printf("3. mul ");
+   printf("chooce option ");
+   scanf("%d", &a);
 
-     switch (a)
-     {
-     case 1:
-        printf("Add tow Number ");
-        scanf("%d,%d ",&b,&c);
-        break;
-         case 2:
-        printf("Add tow Number ");
-        scanf("%d,%d ",&b,&c);
-        break;
-      
-     
-     default:
+   switch (a)
+   {
+   case 1:
+      printf("Add tow Number ");
+      scanf("%d,%d ", &b, &c);
       break;
-     }
-  return 0;
+   case 2:
+      printf("Add tow Number ");
+      scanf("%d,%d ", &b, &c);
+      break;
+
+   default:
+      break;
+   }
+   return 0;
 }
